@@ -1,0 +1,81 @@
+<?php
+
+return [
+    'between' => [
+        'numeric' => ':Attribute debe estar entre :min y :max.',
+        'string' => ':Attribute debe tener entre :min y :max caracteres.',
+    ],
+    'confirmed' => 'La confirmación de :attribute no coincide.',
+    'current_password' => 'La contraseña actual es incorrecta.',
+    'decimal' => ':Attribute debe tener como máximo :decimal decimal(es).',
+    'different' => ':Attribute y :other deben ser diferentes.',
+    'email' => ':Attribute debe ser un correo electrónico válido.',
+    'image' => ':Attribute debe ser una imagen.',
+    'in' => 'El valor seleccionado en :attribute no es válido.',
+    'max' => [
+        'numeric' => ':Attribute no puede ser mayor que :max.',
+        'file' => ':Attribute no puede pesar más de :max KB.',
+        'string' => ':Attribute no puede tener más de :max caracteres.',
+    ],
+    'mimes' => ':Attribute debe ser un archivo de tipo: :values.',
+    'min' => [
+        'numeric' => ':Attribute debe ser al menos :min.',
+        'file' => ':Attribute debe pesar al menos :min KB.',
+        'string' => ':Attribute debe tener al menos :min caracteres.',
+    ],
+    'numeric' => ':Attribute debe ser un número.',
+    'password' => [
+        'letters' => ':Attribute debe contener al menos una letra.',
+        'mixed' => ':Attribute debe contener mayúsculas y minúsculas.',
+        'numbers' => ':Attribute debe contener al menos un número.',
+        'symbols' => ':Attribute debe contener al menos un símbolo.',
+        'uncompromised' => ':Attribute apareció en una filtración de datos; elige otra.',
+    ],
+    'regex' => 'El formato de :attribute no es válido.',
+    'required' => 'El campo :attribute es obligatorio.',
+    'string' => ':Attribute debe ser texto.',
+    'unique' => ':Attribute ya está registrado.',
+    'uploaded' => 'No se pudo subir :attribute (revisa que no exceda 5 MB).',
+    'url' => ':Attribute debe ser una URL válida.',
+
+    'custom' => [
+        'url_embebida' => [
+            'regex' => 'Solo se permiten enlaces de YouTube o Vimeo (los videos no se alojan en TTR).',
+        ],
+        'puntuacion' => [
+            'between' => 'La puntuación debe estar entre 1.0 y 10.0.',
+            'decimal' => 'La puntuación admite como máximo un decimal (por ejemplo 8.5).',
+        ],
+        'imagen' => [
+            'max' => 'La imagen no puede pesar más de 5 MB.',
+        ],
+    ],
+
+    'attributes' => [
+        'name' => 'nombre',
+        'nombre' => 'nombre',
+        'email' => 'correo electrónico',
+        'password' => 'contraseña',
+        'password_actual' => 'contraseña actual',
+        'rol' => 'rol',
+        'titulo' => 'título',
+        'titulo_juego' => 'título del videojuego',
+        'videojuego' => 'videojuego',
+        'desarrollador' => 'desarrollador',
+        'genero' => 'género',
+        'plataforma' => 'plataforma',
+        'puntuacion' => 'puntuación',
+        'pros' => 'puntos positivos',
+        'contras' => 'puntos negativos',
+        'veredicto' => 'veredicto',
+        'resumen' => 'resumen',
+        'contenido' => 'contenido',
+        'categoria' => 'categoría',
+        'estado' => 'estado',
+        'imagen' => 'imagen de portada',
+        'url_embebida' => 'enlace del video',
+        'descripcion' => 'descripción',
+        'comentario' => 'comentario',
+        'q' => 'búsqueda',
+    ],
+];
