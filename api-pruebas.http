@@ -1,0 +1,23 @@
+### 1. Lista de reseñas (200)
+GET http://127.0.0.1:8000/api/v1/resenas
+Accept: application/json
+
+### 2. Filtro por plataforma (200)
+GET http://127.0.0.1:8000/api/v1/resenas?plataforma=PC
+Accept: application/json
+
+### 3. Detalle por slug (200)
+GET http://127.0.0.1:8000/api/v1/resenas/analisis-de-nebula-rift
+Accept: application/json
+
+### 4. Slug inexistente (404)
+GET http://127.0.0.1:8000/api/v1/resenas/no-existe
+Accept: application/json
+
+### 5. Borrador (404)
+GET http://127.0.0.1:8000/api/v1/resenas/analisis-de-cumbre-hueca-borrador
+Accept: application/json
+
+### 6. Noticias (200)
+GET http://127.0.0.1:8000/api/v1/noticias
+Accept: application/json
